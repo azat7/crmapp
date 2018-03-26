@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"php",
+				"phpinfo"
+			],
+			[
 				"e",
 				"expert"
 			],
@@ -128,10 +132,6 @@
 				"view"
 			],
 			[
-				"php",
-				"php"
-			],
-			[
 				"M",
 				"myImage"
 			],
@@ -180,11 +180,11 @@
 			}
 		},
 		{
-			"file": "/C/Users/азат/magento/readme.txt",
+			"file": "/C/AppServ/www/profi/advanced/frontend/web/index.php",
 			"settings":
 			{
-				"buffer_size": 70,
-				"line_ending": "Windows"
+				"buffer_size": 615,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -224,6 +224,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/азат/magento/readme.txt",
 		"/C/Users/азат/Gitcode/index.txt",
 		"/C/AppServ/www/Yii2/cms/config/db.php",
 		"/C/AppServ/www/profi/advanced/console/migrations/m130524_201442_init.php",
@@ -364,7 +365,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -473,23 +474,23 @@
 				},
 				{
 					"buffer": 4,
-					"file": "/C/Users/азат/magento/readme.txt",
+					"file": "/C/AppServ/www/profi/advanced/frontend/web/index.php",
 					"settings":
 					{
-						"buffer_size": 70,
+						"buffer_size": 615,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								70,
-								70
+								5,
+								5
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
