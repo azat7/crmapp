@@ -148,14 +148,6 @@
 	"buffers":
 	[
 		{
-			"file": "composer.json",
-			"settings":
-			{
-				"buffer_size": 66,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "tests/acceptance/SmokeTestCept.php",
 			"settings":
 			{
@@ -164,26 +156,26 @@
 			}
 		},
 		{
-			"file": "/D/program/putty.org.ru/PuTTY/deploy.sh",
+			"file": "tests/acceptance.suite.yml",
 			"settings":
 			{
-				"buffer_size": 172,
+				"buffer_size": 358,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tests/acceptance/QueryCustomerByPhoneNumberCept. php",
+			"settings":
+			{
+				"buffer_size": 842,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/program/deploy.bat",
+			"file": "tests/_support/Step/Acceptance/CRMOperatorSteps.php",
 			"settings":
 			{
-				"buffer_size": 127,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/AppServ/www/profi/advanced/frontend/web/index.php",
-			"settings":
-			{
-				"buffer_size": 615,
+				"buffer_size": 87,
 				"line_ending": "Unix"
 			}
 		}
@@ -224,6 +216,19 @@
 	},
 	"file_history":
 	[
+		"/C/AppServ/Apache24/conf/httpd.conf",
+		"/C/AppServ/Apache24/conf/original/httpd.conf",
+		"/C/AppServ/www/profi/crmapp/vendor/bin/codecept",
+		"/C/AppServ/www/profi/crmapp/vendor/codeception/codeception/codecept",
+		"/C/AppServ/www/profi/crmapp/index.php",
+		"/C/AppServ/www/profi/crmapp/tests/_support/AcceptanceTester.php",
+		"/C/AppServ/www/profi/crmapp/tests/_support/_generated/AcceptanceTesterActions.php",
+		"/C/AppServ/www/profi/crmapp/tests/unit.suite.yml",
+		"/C/AppServ/www/profi/crmapp/tests/acceptance.suite.yml",
+		"/C/AppServ/www/profi/crmapp/composer.json",
+		"/C/AppServ/www/profi/advanced/frontend/web/index.php",
+		"/D/program/deploy.bat",
+		"/D/program/putty.org.ru/PuTTY/deploy.sh",
 		"/C/Users/азат/magento/readme.txt",
 		"/C/Users/азат/Gitcode/index.txt",
 		"/C/AppServ/www/Yii2/cms/config/db.php",
@@ -365,37 +370,11 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "composer.json",
-					"settings":
-					{
-						"buffer_size": 66,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								66,
-								66
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "tests/acceptance/SmokeTestCept.php",
 					"settings":
 					{
@@ -421,24 +400,50 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/D/program/putty.org.ru/PuTTY/deploy.sh",
+					"buffer": 1,
+					"file": "tests/acceptance.suite.yml",
 					"settings":
 					{
-						"buffer_size": 172,
+						"buffer_size": 358,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								45,
-								45
+								358,
+								358
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "tests/acceptance/QueryCustomerByPhoneNumberCept. php",
+					"settings":
+					{
+						"buffer_size": 842,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								721,
+								721
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -448,44 +453,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/D/program/deploy.bat",
+					"file": "tests/_support/Step/Acceptance/CRMOperatorSteps.php",
 					"settings":
 					{
-						"buffer_size": 127,
+						"buffer_size": 87,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								127,
-								127
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Batch File/Batch File.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/C/AppServ/www/profi/advanced/frontend/web/index.php",
-					"settings":
-					{
-						"buffer_size": 615,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5,
-								5
+								85,
+								85
 							]
 						],
 						"settings":
@@ -557,6 +536,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 199.0,
+	"side_bar_width": 224.0,
 	"status_bar_visible": true
 }
