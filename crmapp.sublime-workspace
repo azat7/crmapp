@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"customer",
+				"customer_data"
+			],
+			[
+				"fo",
+				"foreach	foreach …"
+			],
+			[
 				"php",
 				"phpinfo"
 			],
@@ -100,10 +108,6 @@
 				"prototype"
 			],
 			[
-				"fo",
-				"form	Tag"
-			],
-			[
 				"l",
 				"link	Tag"
 			],
@@ -167,7 +171,7 @@
 			"file": "tests/acceptance/QueryCustomerByPhoneNumberCept. php",
 			"settings":
 			{
-				"buffer_size": 842,
+				"buffer_size": 840,
 				"line_ending": "Windows"
 			}
 		},
@@ -175,8 +179,16 @@
 			"file": "tests/_support/Step/Acceptance/CRMOperatorSteps.php",
 			"settings":
 			{
-				"buffer_size": 87,
+				"buffer_size": 869,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tests/_support/Step/Acceptance/CRMUserSteps.php",
+			"settings":
+			{
+				"buffer_size": 771,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -216,14 +228,17 @@
 	},
 	"file_history":
 	[
+		"/C/AppServ/www/profi/crmapp/tests/_support/_generated/AcceptanceTesterActions.php",
+		"/C/AppServ/www/profi/crmapp/tests/_support/_generated/UnitTesterActions.php",
+		"/C/AppServ/www/profi/crmapp/tests/unit.suite.yml",
+		"/C/AppServ/www/profi/crmapp/tests/functional.suite.yml",
+		"/C/AppServ/www/profi/crmapp/vendor/fzaninotto/faker/src/Faker/Factory.php",
+		"/C/AppServ/www/profi/crmapp/tests/_support/AcceptanceTester.php",
 		"/C/AppServ/Apache24/conf/httpd.conf",
 		"/C/AppServ/Apache24/conf/original/httpd.conf",
 		"/C/AppServ/www/profi/crmapp/vendor/bin/codecept",
 		"/C/AppServ/www/profi/crmapp/vendor/codeception/codeception/codecept",
 		"/C/AppServ/www/profi/crmapp/index.php",
-		"/C/AppServ/www/profi/crmapp/tests/_support/AcceptanceTester.php",
-		"/C/AppServ/www/profi/crmapp/tests/_support/_generated/AcceptanceTesterActions.php",
-		"/C/AppServ/www/profi/crmapp/tests/unit.suite.yml",
 		"/C/AppServ/www/profi/crmapp/tests/acceptance.suite.yml",
 		"/C/AppServ/www/profi/crmapp/composer.json",
 		"/C/AppServ/www/profi/advanced/frontend/web/index.php",
@@ -370,7 +385,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -430,15 +445,15 @@
 					"file": "tests/acceptance/QueryCustomerByPhoneNumberCept. php",
 					"settings":
 					{
-						"buffer_size": 842,
+						"buffer_size": 840,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								721,
-								721
+								60,
+								60
 							]
 						],
 						"settings":
@@ -456,23 +471,51 @@
 					"file": "tests/_support/Step/Acceptance/CRMOperatorSteps.php",
 					"settings":
 					{
-						"buffer_size": 87,
+						"buffer_size": 869,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								85,
-								85
+								867,
+								867
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "tests/_support/Step/Acceptance/CRMUserSteps.php",
+					"settings":
+					{
+						"buffer_size": 771,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								765,
+								765
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -536,6 +579,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 224.0,
+	"side_bar_width": 257.0,
 	"status_bar_visible": true
 }
