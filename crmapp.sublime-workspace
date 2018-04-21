@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"ex",
+				"exitCode"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
 				"customer",
 				"customer_data"
 			],
@@ -12,16 +36,8 @@
 				"foreach	foreach …"
 			],
 			[
-				"php",
-				"phpinfo"
-			],
-			[
 				"e",
 				"expert"
-			],
-			[
-				"na",
-				"namespace"
 			],
 			[
 				"di",
@@ -92,10 +108,6 @@
 				"regForm"
 			],
 			[
-				"for",
-				"for	for (…) {…}"
-			],
-			[
 				"fu",
 				"function"
 			],
@@ -152,42 +164,42 @@
 	"buffers":
 	[
 		{
-			"file": "tests/acceptance/SmokeTestCept.php",
+			"file": "web/index.php",
 			"settings":
 			{
-				"buffer_size": 129,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "tests/acceptance.suite.yml",
-			"settings":
-			{
-				"buffer_size": 358,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "tests/acceptance/QueryCustomerByPhoneNumberCept. php",
-			"settings":
-			{
-				"buffer_size": 840,
+				"buffer_size": 321,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "tests/_support/Step/Acceptance/CRMOperatorSteps.php",
+			"file": "Controllers/SiteController.php",
 			"settings":
 			{
-				"buffer_size": 869,
+				"buffer_size": 151,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/AppServ/www/web/index.php",
+			"settings":
+			{
+				"buffer_size": 178,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vendor/yiisoft/yii2/base/Application.php",
+			"settings":
+			{
+				"buffer_size": 23934,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "tests/_support/Step/Acceptance/CRMUserSteps.php",
+			"file": "yii.php",
 			"settings":
 			{
-				"buffer_size": 771,
+				"buffer_size": 289,
 				"line_ending": "Windows"
 			}
 		}
@@ -228,6 +240,22 @@
 	},
 	"file_history":
 	[
+		"/C/AppServ/www/profi/crmapp/config/web.php",
+		"/C/AppServ/www/profi/crmapp/models/customer/Phone.php",
+		"/C/AppServ/www/profi/crmapp/Controllers/CustomersController.php",
+		"/C/AppServ/www/profi/crmapp/models/customer/Customer.php",
+		"/C/AppServ/www/profi/crmapp/vendor/yiisoft/yii2/base/Controller.php",
+		"/C/AppServ/www/profi/crmapp/vendor/yiisoft/yii2/base/Action.php",
+		"/C/AppServ/www/profi/crmapp/vendor/yiisoft/yii2/base/Application.php",
+		"/C/AppServ/www/web/index.php",
+		"/C/AppServ/www/profi/crmapp/vendor/yiisoft/yii2/Yii.php",
+		"/C/AppServ/www/profi/crmapp/vendor/yiisoft/yii2/web/Application.php",
+		"/C/AppServ/www/profi/crmapp/vendor/yiisoft/yii2/BaseYii.php",
+		"/C/AppServ/www/profi/crmapp/tests/acceptance/SmokeTestCept.php",
+		"/C/AppServ/www/profi/crmapp/tests/acceptance.suite.yml",
+		"/C/AppServ/www/profi/crmapp/tests/acceptance/QueryCustomerByPhoneNumberCept. php",
+		"/C/AppServ/www/profi/crmapp/tests/_support/Step/Acceptance/CRMOperatorSteps.php",
+		"/C/AppServ/www/profi/crmapp/tests/_support/Step/Acceptance/CRMUserSteps.php",
 		"/C/AppServ/www/profi/crmapp/tests/_support/_generated/AcceptanceTesterActions.php",
 		"/C/AppServ/www/profi/crmapp/tests/_support/_generated/UnitTesterActions.php",
 		"/C/AppServ/www/profi/crmapp/tests/unit.suite.yml",
@@ -239,7 +267,6 @@
 		"/C/AppServ/www/profi/crmapp/vendor/bin/codecept",
 		"/C/AppServ/www/profi/crmapp/vendor/codeception/codeception/codecept",
 		"/C/AppServ/www/profi/crmapp/index.php",
-		"/C/AppServ/www/profi/crmapp/tests/acceptance.suite.yml",
 		"/C/AppServ/www/profi/crmapp/composer.json",
 		"/C/AppServ/www/profi/advanced/frontend/web/index.php",
 		"/D/program/deploy.bat",
@@ -340,12 +367,7 @@
 		"/C/wamp/www/guly.dev/www/index.php",
 		"/C/wamp/www/index.php",
 		"/C/wamp/www/guly.dev/www/index.html",
-		"/C/WebServers/home/localhost/www/Time.ru/phpinfo.php",
-		"/C/Users/азат/AppData/Local/Temp/fz3temp-2/indexx.php",
-		"/C/Users/азат/AppData/Local/Temp/fz3temp-2/index.php",
-		"/Z/home/localhost/www/index.php",
-		"/C/wamp/www/guly.dev/index.html",
-		"/C/wamp/www/guly.dev/Новый текстовый документ.txt"
+		"/C/WebServers/home/localhost/www/Time.ru/phpinfo.php"
 	],
 	"find":
 	{
@@ -363,6 +385,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"findRecord",
+			"findRecordsByQuery",
 			"simple_img",
 			"active",
 			"images",
@@ -390,18 +414,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "tests/acceptance/SmokeTestCept.php",
+					"file": "web/index.php",
 					"settings":
 					{
-						"buffer_size": 129,
+						"buffer_size": 321,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								129,
-								129
+								321,
+								321
 							]
 						],
 						"settings":
@@ -416,23 +440,23 @@
 				},
 				{
 					"buffer": 1,
-					"file": "tests/acceptance.suite.yml",
+					"file": "Controllers/SiteController.php",
 					"settings":
 					{
-						"buffer_size": 358,
+						"buffer_size": 151,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								358,
-								358
+								35,
+								35
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -442,18 +466,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "tests/acceptance/QueryCustomerByPhoneNumberCept. php",
+					"file": "/C/AppServ/www/web/index.php",
 					"settings":
 					{
-						"buffer_size": 840,
+						"buffer_size": 178,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								60,
-								60
+								172,
+								172
 							]
 						],
 						"settings":
@@ -468,54 +492,54 @@
 				},
 				{
 					"buffer": 3,
-					"file": "tests/_support/Step/Acceptance/CRMOperatorSteps.php",
+					"file": "vendor/yiisoft/yii2/base/Application.php",
 					"settings":
 					{
-						"buffer_size": 869,
+						"buffer_size": 23934,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								867,
-								867
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 157.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "tests/_support/Step/Acceptance/CRMUserSteps.php",
+					"file": "yii.php",
 					"settings":
 					{
-						"buffer_size": 771,
+						"buffer_size": 289,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								765,
-								765
+								289,
+								289
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 90.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -529,7 +553,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -564,6 +588,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"action",
+				"vendor/yiisoft/yii2/base/Action.php"
+			],
+			[
+				"controller",
+				"vendor/yiisoft/yii2/base/Controller.php"
+			]
 		],
 		"width": 0.0
 	},
